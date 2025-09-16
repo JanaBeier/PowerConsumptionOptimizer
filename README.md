@@ -100,7 +100,7 @@ Traditional energy monitoring systems expose sensitive household data, revealing
 - `startOptimizationAnalysis()`: Initiate privacy-preserving analysis
 - `getOptimizationRecommendation()`: Retrieve confidential optimization results
 
-## 🎥 Demonstration
+## 🎥 PowerConsumptionOptimizer.mp4
 
 This repository includes comprehensive demonstration materials showcasing the privacy-preserving capabilities:
 
