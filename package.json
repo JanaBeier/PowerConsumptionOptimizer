@@ -1,0 +1,23 @@
+{
+  "name": "power-consumption-optimizer",
+  "version": "1.0.0",
+  "description": "Privacy-preserving power consumption optimization using Zama FHE",
+  "main": "public/index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build required'",
+    "dev": "npx http-server public -p 3000 --cors",
+    "start": "npx http-server public -p 8080 --cors"
+  },
+  "keywords": [
+    "blockchain",
+    "fhe",
+    "zama",
+    "power-optimization",
+    "privacy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
