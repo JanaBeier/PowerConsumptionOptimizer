@@ -10,22 +10,22 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/app.js",
-      "dest": "/public/app.js"
+      "source": "/app.js",
+      "destination": "/public/app.js"
     },
     {
-      "src": "/index.html",
-      "dest": "/public/index.html"
+      "source": "/index.html",
+      "destination": "/public/index.html"
     },
     {
-      "src": "/(.*\\.(png|jpg|jpeg|gif|svg|mp4|avi|mov|ico|css|js))",
-      "dest": "/public/$1"
+      "source": "/(.*\\.(png|jpg|jpeg|gif|svg|mp4|avi|mov|ico|css|js))",
+      "destination": "/public/$1"
     },
     {
-      "src": "/(.*)",
-      "dest": "/public/index.html"
+      "source": "/(.*)",
+      "destination": "/public/index.html"
     }
   ]
 }
